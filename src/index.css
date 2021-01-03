@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mountain{
+  width: 100%;
+  height: auto;
+}
+
+.intro{
+  position: absolute;
+  align-self: stretch;
+  height: 10%;
+  margin: 0;
+  padding: 10% 0% 12% 0%;
+  top: 10%;
+  left: 20%;
+  /* font-size: 300px; */
+  color: rgb(247, 119, 34);
+  font-weight: bolder;
+  /* width: auto;
+  height: auto;
+  transform: translate(-50%, -50%); */
+}
+
+.contact_button{
+  left: 20%;
+  width: 10%
+}
