@@ -1,5 +1,6 @@
 import React from 'react';
 import mountain from '/Users/jacktawil/Development/code/jack_tawil/src/images/mountain.jpeg'
+import './Home.css'
 
 function Main() {
     return (

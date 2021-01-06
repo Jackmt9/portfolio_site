@@ -1,0 +1,10 @@
+.mountain {
+    max-width: auto;
+    height: auto;
+}
+
+.intro {
+    position: absolute;
+    top: 2rem;
+    left: 8rem;
+}
