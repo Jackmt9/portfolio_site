@@ -1,10 +1,27 @@
 .mountain {
-    max-width: auto;
+    margin-bottom: -20px;
+    opacity: 60%;
+    z-index: -1;
+    padding-bottom: 20px;
+    /* object-fit: cover; */
     height: auto;
+    /* min-height: 30rem; */
+    /* max-height: 300px; */
+    max-width: 100%;
+
+
+    /* overflow: hidden;
+    display: flex; */
+
 }
+
+/* .Main {
+    background: url('/Users/jacktawil/Development/code/jack_tawil/src/images/mountain.jpeg');
+} */
 
 .intro {
     position: absolute;
-    top: 2rem;
+    top: 8rem;
     left: 8rem;
+    z-index: 1;
 }

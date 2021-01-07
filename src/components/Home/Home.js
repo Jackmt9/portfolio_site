@@ -5,7 +5,12 @@ import './Home.css'
 function Main() {
     return (
         <div className="Main">
-            <h1 className='intro'>Hi, I'm Jack</h1>
+            <h1 className='intro'>
+                Hey, I'm Jack.  
+                <br/>
+                <br/>
+                Software Developer and Curious Human
+                </h1>
             <img src={mountain} className="mountain" />
         </div>
     )

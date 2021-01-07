@@ -6,6 +6,7 @@ import About from './components/About/About'
 import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
 import NavBar from './components/NavBar/NavBar'
+import Footer from './components/Footer/Footer'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App(){
@@ -21,7 +22,7 @@ function App(){
           </Switch>
 
         </Router>
-
+        <Footer />
       </div>
     );
 }
