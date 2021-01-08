@@ -15,6 +15,10 @@
     
 }
 
+.navbar-logo:hover {
+    color: #6d76f7;
+}
+
 .navbar-logo--a {
     text-decoration: none;
     cursor: pointer;

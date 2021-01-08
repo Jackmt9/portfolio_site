@@ -24,7 +24,7 @@ export default function Resume(){
   return (
 
     <div className='resume'>
-      <a className='button' href={pdf} download='Jack_Tawil_Resume'>
+      <a className='button' href={pdf} download={`Jack_Tawil_Resume_${new Date().toLocaleDateString()}`}>
         Download
         <i className="fas fa-download"/>
       </a>
