@@ -5,6 +5,7 @@ import './Home.css'
 function Main() {
     return (
         <div className="Main">
+            <div className='image'/>
             <h1 className='intro'>
                 Hi, I'm Jack.  
                 <br/>
