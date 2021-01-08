@@ -1,7 +1,7 @@
 .mountain {
     margin-bottom: -20px;
     opacity: 60%;
-    z-index: -1;
+    z-index: -2;
     padding-bottom: 20px;
     /* object-fit: cover; */
     height: auto;
@@ -24,4 +24,5 @@
     top: 8rem;
     left: 8rem;
     z-index: 1;
+    /* RUINS DROP DOWN MUST FIX */
 }

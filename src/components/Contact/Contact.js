@@ -7,10 +7,12 @@ import React from 'react';
 // import Email from '../images/email.png'
 
 function Contact() {
+
     return (
+        
         <div className="Contact">
-            <h2>Contact me here:</h2>
-            <p>contact info here</p>
+            <h2>Contact</h2>
+            <p>Email: <a href='mailto:jackmt9@gmail.com' >Jackmt9@gmail.com</a></p>
             {/* <a href="https://github.com/Jackmt9" target="_blank"><img className="contact_button" src={Github} alt="GitHub"/></a>
             <a href="https://www.linkedin.com/in/jackmt9/" target="_blank"><img className="contact_button" src={LinkedIn} alt="LinkedIn"/></a>
             <a href="https://jackmt9.medium.com/" target="_blank"><img className="contact_button" src={Medium} alt="Medium"/></a>

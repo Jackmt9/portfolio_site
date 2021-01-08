@@ -1,10 +1,16 @@
 import React from 'react';
+import {ProjectItems} from './ProjectItems'
+import ProjectCard from './ProjectCard'
 
 function Projects() {
+
+    const projects = ProjectItems.map((project, index) => {
+        return(<ProjectCard project={project} key={index}/>)
+    })
+
     return (
         <div className="Projects">
-            <h2>This is a list of my projects</h2>
-            <p>[Projects here]</p>
+            {projects}
         </div>
     )
 }
