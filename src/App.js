@@ -26,7 +26,7 @@ function App(){
           </Router>
         </div>
 
-        <Footer className='footer'/>
+        <Footer />
       </div>
     );
 }
