@@ -1,14 +1,13 @@
 .mountain {
     margin-bottom: -20px;
     opacity: 60%;
-    z-index: -2;
+    z-index: -1;
     padding-bottom: 20px;
     /* object-fit: cover; */
     height: auto;
     /* min-height: 30rem; */
     /* max-height: 300px; */
     max-width: 100%;
-
 
     /* overflow: hidden;
     display: flex; */
@@ -21,8 +20,21 @@
 
 .intro {
     position: absolute;
-    top: 8rem;
-    left: 8rem;
-    z-index: 1;
+    /* top: 8rem;
+    left: 8rem; */
+    /* z-index: 1; */
     /* RUINS DROP DOWN MUST FIX */
+
+    background-image:url('../../images/mountain.jpeg');
+
+    margin-bottom: 5000px;
+
+    background-size: cover;
+    height: 80%;
+    background-position:center;
+    width: 100%;
+    
+    
+    /* overflow: hidden; */
+    /* height:100%; */
 }

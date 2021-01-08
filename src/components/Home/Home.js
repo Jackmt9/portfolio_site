@@ -11,7 +11,7 @@ function Main() {
                 <br/>
                 Software Engineer / Explorer of Code
                 </h1>
-            <img src={mountain} className="mountain" />
+            {/* <img src={mountain} className="mountain" /> */}
         </div>
     )
 }
