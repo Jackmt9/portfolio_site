@@ -1,8 +1,10 @@
 import React from 'react';
-import mountain from '/Users/jacktawil/Development/code/jack_tawil/src/images/mountain.jpeg'
 import './Home.css'
 
 function Main() {
+
+    console.log("Thanks for checking out my site. Things tend to change around here, so be sure to visit again soon.")
+
     return (
         <div className="Main">
             <div className='image'/>
@@ -12,7 +14,6 @@ function Main() {
                 <br/>
                 Software Engineer / Explorer of Code
                 </h1>
-            {/* <img src={mountain} className="mountain" /> */}
         </div>
     )
 }

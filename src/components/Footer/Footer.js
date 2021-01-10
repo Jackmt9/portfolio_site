@@ -8,14 +8,14 @@ function Footer() {
 
     return (
         <footer>
-            <div class='footnote'>
-                <a href="https://jackmt9.medium.com/" target='_blank'><i class="fab fa-medium"></i></a>
-                <a href="https://www.linkedin.com/in/jackmt9/" target='_blank'><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/jackmt9" target='_blank'><i class="fab fa-github-square"></i></a>
-                <a href="https://dev.to/jackmt9" target='_blank'><i class="fab fa-dev"></i></a>
+            <div className='footnote'>
+                <a href="https://jackmt9.medium.com/" rel="noopener noreferrer" target='_blank'><i className="fab fa-medium"></i></a>
+                <a href="https://www.linkedin.com/in/jackmt9/" rel="noopener noreferrer" target='_blank'><i className="fab fa-linkedin"></i></a>
+                <a href="https://github.com/jackmt9" rel="noopener noreferrer" target='_blank'><i className="fab fa-github-square"></i></a>
+                <a href="https://dev.to/jackmt9" rel="noopener noreferrer" target='_blank'><i className="fab fa-dev"></i></a>
                 <br/>
-                <p>Made With React, CSS, and ❤️</p>
-                <p>Jack Tawil <span class="highlight">©{year}</span></p>
+                <p>Made With React, CSS, and <span role='img' aria-label="heart">❤️</span></p>
+                <p>by Jack Tawil <span className="highlight">©{year}</span></p>
             </div>
         </footer>
     )

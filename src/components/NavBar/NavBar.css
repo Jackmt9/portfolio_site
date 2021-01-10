@@ -16,7 +16,7 @@
 }
 
 .navbar-logo:hover {
-    color: #6d76f7;
+    color: var(--blue-highlight);
 }
 
 .navbar-logo--a {
@@ -48,7 +48,7 @@
 }
 
 .nav-links:hover {
-    background-color: #6d76f7;
+    background-color: var(--blue-highlight);
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
@@ -98,7 +98,7 @@
     }
 
     .nav-links:hover {
-        background-color: #7577fa42;
+        background-color: var(--blue-highlight);
         border-radius: 0;
     }
 
@@ -131,7 +131,7 @@
         margin: 2rem auto;
         border-radius: 4px;
         width: 80%;
-        background: #4ad9e4;
+        background: var(--blue);
         text-decoration: none;
         color: #fff;
         font-size: 1.5rem;
@@ -139,11 +139,12 @@
 
     .nav-links-mobile:hover {
         background: #fff;
-        color: #6568F4;
+        color: var(--blue-highlight);
         transition: 250ms;
     }
 
     Button {
         display: none;
     }
+
 }

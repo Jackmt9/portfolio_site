@@ -5,7 +5,7 @@ export const ProjectItems = [
         backend: 'https://github.com/Jackmt9/mnemonic-maker-backend',
         description: 'A React/Rails-based project that enables users to more easily remember phrases by using song lyrics.',
         liveDemo: 'https://mnemonicmaker.netlify.app/',
-        videoDemo: 'https://youtu.be/mRDLQNtoJXY'
+        videoDemo: 'https://youtube.com/embed/mRDLQNtoJXY',
     },
     {
         title: 'COVID TRACKr',
@@ -13,7 +13,7 @@ export const ProjectItems = [
         backend: 'https://github.com/Jackmt9/covid_trackr',
         description: 'A React/Rails-based web application designed to display and query statistical COVID-related data.',
         liveDemo: '',
-        videoDemo: 'https://youtu.be/lVbZpYMkt3s'
+        videoDemo: 'https://youtube.com/embed/lVbZpYMkt3s',
     },
     {
         title: 'Jetgreen',
@@ -21,7 +21,8 @@ export const ProjectItems = [
         backend: 'https://github.com/Jackmt9/jetgreen',
         description: 'A Rails-based web application designed to help gate agents manage outbound flights',
         liveDemo: 'https://safe-scrubland-93990.herokuapp.com',
-        videoDemo: 'https://youtu.be/SIUZVVVib0g'
+        videoDemo: 'https://youtube.com/embed/SIUZVVVib0g',
+        notes: 'Username: jack // Password: password'
     }
 
 ]

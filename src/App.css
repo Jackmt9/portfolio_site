@@ -5,6 +5,10 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+:root{
+  --blue: #3e7bca;
+  --blue-highlight: #4aa6e4;
+}
 .content {
   min-height: calc(100vh - 70px);
 }

@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+import React from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import pdf from './Resume.pdf'
 import './Resume.css'
@@ -10,16 +11,12 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 
 export default function Resume(){
-    const [numPages, setNumPages] = useState(null);
-    const [pageNumber, setPageNumber] = useState(1);
+    // const [numPages, setNumPages] = useState(null);
+    // const [pageNumber, setPageNumber] = useState(1);
 
-    function onDocumentLoadSuccess({ numPages }) {
-        setNumPages(numPages);
-    }
-
-    function downloadFile(){
-      window.location.href = {pdf}
-    }
+    // function onDocumentLoadSuccess({ numPages }) {
+    //     setNumPages(numPages);
+    // }
 
   return (
 
@@ -31,7 +28,7 @@ export default function Resume(){
      
       <Document
         file={pdf}
-        onLoadSuccess={onDocumentLoadSuccess}
+        // onLoadSuccess={onDocumentLoadSuccess}
         // options={{ workerSrc: "/pdf.worker.js" }}
         externalLinkTarget='_blank'
         // loading={this.renderLoader()}
