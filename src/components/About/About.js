@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css'
-import Coding from '../../images/Coding.jpg'
 
 function About() {
     return (
