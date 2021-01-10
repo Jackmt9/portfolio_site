@@ -12,7 +12,7 @@
 }
 
 .about-image {
-    background-image: url('../../images/Coding.jpg');
+    background-image: url(../../images/Coding.jpg);
     background-repeat: no-repeat;
     height: 400px;
     opacity: 90%;
