@@ -14,7 +14,7 @@ class Contact extends React.Component {
 
             
             <div className="Contact">
-                <h2>Contact</h2>
+                <h1>Contact</h1>
                 <br/>
                 <p>Thanks for checking out my site. Feel free to reach out to me via email to get in touch.</p>
                 <br/>
@@ -29,7 +29,7 @@ class Contact extends React.Component {
                 <br/>
                 <br/>
                 <br/>
-                <h2>Connect</h2>
+                <h1>Connect</h1>
                 <br/>
                 <p>Be sure to connect with me through these platforms:</p>
                 <br/>

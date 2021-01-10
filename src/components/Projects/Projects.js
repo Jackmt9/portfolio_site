@@ -11,7 +11,10 @@ function Projects() {
 
     return (
         <div className="Projects">
-            {projects}
+            <h1>Projects</h1>
+            <div className='projects-container'>
+                {projects}
+            </div>
         </div>
     )
 }

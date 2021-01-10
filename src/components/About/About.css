@@ -1,12 +1,20 @@
 .About {
     background-origin: content-box;
     padding: 50px;
-    background-image: url('../../images/Coding.jpg');
-    /* -ms-background-position-y: bottom;
-    background-position: center bottom; */
-    height: 80vh;
+    /* background-image: url('../../images/Coding.jpg'); */
+
+    /* height: 80vh;
     background-position: center bottom;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     
     /* -ms-behavior: url(/backgroundsize.min.htc); */
+
+}
+
+.about-image {
+    background-image: url('../../images/Coding.jpg');
+    background-repeat: no-repeat;
+    height: 400px;
+    opacity: 90%;
+    margin-top: 40px;
 }

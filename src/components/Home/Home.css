@@ -5,15 +5,15 @@
 
     background-image:url('../../images/mountain.jpeg');
 
-    margin-bottom: 5000px;
+    /* margin-bottom: 500px; */
 
     background-size: cover;
-    height: 80%;
-    background-position:center;
+    height: 90%;
+    background-position: center;
     width: 100%;
     opacity: 80%;
 }
 
 .intro {
-    padding: 30px;
+    padding: 50px;
 }
