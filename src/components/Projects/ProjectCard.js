@@ -9,7 +9,7 @@ export default function ProjectCard({project, index}) {
         <div className='project-card' key={index}>
             <h2 className="project-title">{title}</h2>
             <iframe frameBorder="0" allowFullScreen="allowfullscreen" src={videoDemo} title={title}/>
-            
+            <br/>
             {
                 frontend === backend ? 
                     <a href={frontend} rel="noopener noreferrer" target='_blank'>Frontend & Backend</a>
