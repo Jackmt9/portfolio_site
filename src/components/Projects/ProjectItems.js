@@ -19,7 +19,7 @@ export const ProjectItems = [
         title: 'Jetgreen',
         frontend: 'https://github.com/Jackmt9/jetgreen',
         backend: 'https://github.com/Jackmt9/jetgreen',
-        description: 'A Rails-based web application designed to help gate agents manage outbound flights',
+        description: 'A Rails-based web application designed to help gate agents manage outbound flights.',
         liveDemo: 'https://safe-scrubland-93990.herokuapp.com',
         videoDemo: 'https://youtube.com/embed/SIUZVVVib0g',
         notes: 'Username: jack // Password: password'

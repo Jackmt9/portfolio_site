@@ -1,4 +1,12 @@
 .About {
+    background-origin: content-box;
     padding: 50px;
+    background-image: url('../../images/Coding.jpg');
+    /* -ms-background-position-y: bottom;
+    background-position: center bottom; */
+    height: 80vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    
+    /* -ms-behavior: url(/backgroundsize.min.htc); */
 }
-

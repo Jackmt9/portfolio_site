@@ -1,11 +1,16 @@
 import React from 'react';
 import './About.css'
+import Coding from '../../images/Coding.jpg'
 
 function About() {
     return (
         <div className="About">
             <h1>About</h1>
-            <p>Jack is a full-stack software engineer whose passionate about ....</p>
+            <br/>
+            <p>Jack is a Full-Stack Software Engineer whose always been passionate about learning how things work. In the past, he was a magician entertaining at corporate events. He hold a Bachelors of Science in Mathematics and is avidly expanding his knowledge.</p>
+            <br/>
+            <br/>
+            {/* <img className='coding' src={Coding}/> */}
         </div>
     )
 }
