@@ -15,6 +15,6 @@
     background: url(../../images/Coding.jpg);
     background-repeat: no-repeat;
     height: 400px;
-    opacity: 90% !important;
+    opacity: 0.9 !important;
     margin-top: 40px;
 }
