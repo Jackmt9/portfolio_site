@@ -6,6 +6,7 @@ import './Resume.css'
 
 // import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/umd/Page/AnnotationLayer.css';
+// import { getDefaultNormalizer } from '@testing-library/react';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -17,11 +18,15 @@ export default function Resume(){
     // function onDocumentLoadSuccess({ numPages }) {
     //     setNumPages(numPages);
     // }
+  function getDate() {
+    const date = new Date()
+    return date.toISOString().slice(0,10)
+  }
 
   return (
 
     <div className='resume'>
-      <a className='button' href={pdf} download={`Jack_Tawil_Resume_${new Date().toLocaleDateString()}`}>
+      <a className='button' href={pdf} download={`Jack_Tawil_Resume_Download_${getDate()}`}>
         Download
         <i className="fas fa-download"/>
       </a>
