@@ -44,6 +44,8 @@ export default function Resume(){
 
       </Document>
       {/* <p>Page {pageNumber} of {numPages}</p> */}
+
+      <a target='_blank' href='https://gist.github.com/Jackmt9/1e2aa4139a02e6b75bdea0a7f8712cd8' className='gist' rel="noopener noreferrer">View Resume In Markdown Format</a>
     </div>
   );
 }

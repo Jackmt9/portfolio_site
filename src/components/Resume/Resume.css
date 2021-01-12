@@ -1,14 +1,33 @@
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: var(--blue);
     border: none;
     color: white;
     padding: 15px 32px;
+    border-radius: 4px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin: 20px 0 0 50px ;
   }
 
 .button:hover {
-    background-color: #289637;
+    background-color: var(--blue-highlight);
+}
+
+.gist {
+  background-color: var(--blue);
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 0 20px 50px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.gist:hover {
+  background-color: var(--blue-highlight);
 }
