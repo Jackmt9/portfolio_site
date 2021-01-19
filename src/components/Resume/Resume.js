@@ -27,7 +27,7 @@ export default function Resume(){
 
     <div className='resume'>
       <a className='button' href={pdf} download={`Jack_Tawil_Resume_Download_${getDate()}`}>
-        Download
+        Download&nbsp;
         <i className="fas fa-download"/>
       </a>
      
