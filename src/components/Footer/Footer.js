@@ -14,8 +14,7 @@ function Footer() {
                 <a href="https://github.com/jackmt9" rel="noopener noreferrer" target='_blank'><i className="fab fa-github-square"></i></a>
                 <a href="https://dev.to/jackmt9" rel="noopener noreferrer" target='_blank'><i className="fab fa-dev"></i></a>
                 <br/>
-                <p>Made With React, CSS, and <span role='img' aria-label="heart">❤️</span></p>
-                <p>by Jack Tawil <span className="highlight">©{year}</span></p>
+                <p>Made With React, CSS, and <span role='img' aria-label="heart">❤️</span>by Jack Tawil <span className="highlight">©{year}</span> </p>
             </div>
         </footer>
     )
