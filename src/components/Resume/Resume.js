@@ -1,19 +1,11 @@
-// import React, { useState } from 'react';
-// import React from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import pdf from './Resume.pdf'
 import './Resume.css'
 import Gist from 'react-gist'
-// var Gist = require('react-gist');
 import React, { Component } from 'react';
-
-
-// import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/umd/Page/AnnotationLayer.css';
-// import { getDefaultNormalizer } from '@testing-library/react';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-
 
 class Resume extends Component {
   
