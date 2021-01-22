@@ -23,12 +23,21 @@ export default function Resume(){
     return date.toISOString().slice(0,10)
   }
 
+  const emailBody = 'You may view Jack Tawil\'s resume at https://tawil.dev/resume and can reach him at jackmt9@gmail.com.'
+  const emailSubject = 'Jack Tawil - Software Engineer Applicant'
+
+
   return (
 
     <div className='resume'>
+      <script src="https://gist.github.com/Jackmt9/1e2aa4139a02e6b75bdea0a7f8712cd8.js"></script>
       <a className='button' href={pdf} download={`Jack_Tawil_Resume_Download_${getDate()}`}>
-        Download&nbsp;
+        Download&nbsp;&nbsp;
         <i className="fas fa-download"/>
+      </a>
+      <a className='button' href={`mailto:?body=${emailBody}&subject=${emailSubject}`}>
+        Share&nbsp;&nbsp;
+        <i class="fas fa-share-square"/>
       </a>
      
       <Document
