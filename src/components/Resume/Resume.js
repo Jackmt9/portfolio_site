@@ -29,7 +29,7 @@ class Resume extends Component {
     return (
       
       <div className='resume'>
-        <a className='button' href={pdf} download={`Jack_Tawil_Resume_Download_${this.getDate()}`}>
+        <a className='button' href={pdf} download={`Jack_Tawil_Resume_${this.getDate()}_UTC`}>
           Download PDF&nbsp;&nbsp;
           <i className="fas fa-download"/>
         </a>
