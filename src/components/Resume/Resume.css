@@ -14,3 +14,7 @@
 .button:hover {
     background-color: var(--blue-highlight);
 }
+
+.gist {
+    margin: 50px 50px 50px 50px;
+}

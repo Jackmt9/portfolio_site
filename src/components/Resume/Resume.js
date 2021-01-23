@@ -43,8 +43,9 @@ class Resume extends Component {
 
         {
           this.state.markdown ? 
-          
-            <Gist id='1e2aa4139a02e6b75bdea0a7f8712cd8'/>
+            <div className='gist'>
+              <Gist id='1e2aa4139a02e6b75bdea0a7f8712cd8'/>
+            </div>
           :
             <Document
               file={pdf}
