@@ -11,6 +11,8 @@
     
     grid-auto-rows: auto;
 
+    /* justify-content: center; */
+
 }
 
 .project-card {
@@ -18,7 +20,7 @@
         transition: 0.3s;
         width: 40vh;
         text-align: center;
-        margin: auto;
+        /* margin: auto; */
         margin-top: 20px;
         margin-bottom: 20px;
         padding: 10px 20px 10px 20px;
