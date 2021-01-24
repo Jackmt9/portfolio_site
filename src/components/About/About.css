@@ -1,14 +1,6 @@
 .About {
     background-origin: content-box;
     padding: 50px;
-    /* background-image: url('../../images/Coding.jpg'); */
-
-    /* height: 80vh;
-    background-position: center bottom;
-    background-repeat: no-repeat; */
-    
-    /* -ms-behavior: url(/backgroundsize.min.htc); */
-
 }
 
 .about-image {
@@ -17,4 +9,5 @@
     height: 400px;
     opacity: 0.9 !important;
     margin-top: 40px;
+    background-position: 30% 0;
 }
