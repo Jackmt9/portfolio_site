@@ -16,7 +16,6 @@ class Navbar extends Component {
                 <a href="/" className="navbar-logo--a">
                   <h1 className="navbar-logo">
                     Jack Tawil 
-                    {/* <i className="fab fa-centos"></i> */}
                   </h1>
                 </a>
                 <div className="menu-icon" onClick={this.handleClick}>

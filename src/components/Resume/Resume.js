@@ -37,10 +37,7 @@ class Resume extends Component {
           Share&nbsp;&nbsp;
           <i class="fas fa-share-square"/>
         </a>
-        {/* <a target='_blank' href='https://gist.github.com/Jackmt9/1e2aa4139a02e6b75bdea0a7f8712cd8' className='button' rel="noopener noreferrer">View Resume In Markdown Format</a> */}
         <button className='button' onClick={this.toggleMarkdown}>{this.state.markdown ? 'View PDF' : 'View Markdown'}</button>
-      
-
         {
           this.state.markdown ? 
             <div className='gist'>
@@ -54,10 +51,10 @@ class Resume extends Component {
               externalLinkTarget='_blank'
               // loading={this.renderLoader()}
             >
-              <Page pageNumber={1}
+              <Page 
+                pageNumber={1}
                 width={window.innerWidth} 
               />
-
             </Document>
         }
       </div>
