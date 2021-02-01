@@ -22,7 +22,7 @@ export const MenuItems = [
     {
         title: 'Blog',
         url: '/blog',
-        cName: 'nav-links'
+        cName: 'nav-links',
     },
     {
         title: 'Contact',

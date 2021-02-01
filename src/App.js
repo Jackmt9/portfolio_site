@@ -11,10 +11,12 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App(){
   function redirectToBlog(){
-    window.open(
-      "https://jackmt9.medium.com/"
-    )
-    window.location.href = '/'
+  //   window.open(
+  //     "https://jackmt9.medium.com/"
+  //   )
+  //   window.location.href = '/'
+    window.location.href = 'https://jackmt9.medium.com/'
+    return null
   }
 
   return (
