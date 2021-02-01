@@ -10,24 +10,33 @@ import Footer from './components/Footer/Footer'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App(){
-    return (
-      <div className="App">
-        <div className="content">
-          <NavBar />
-          <Router>
-            <Switch>
-              <Route path='/' exact component={Home}/>
-              <Route path='/projects' component={Projects}/>
-              <Route path='/about' component={About}/>
-              <Route path='/contact' component={Contact}/>
-              <Route path='/resume' component={Resume}/>
-            </Switch>
-          </Router>
-        </div>
+  function redirectToBlog(){
+    window.location.href='/'
+    window.open(
+      "https://jackmt9.medium.com/",
+      "_blank"
+    )
+  }
 
-        <Footer />
+  return (
+    <div className="App">
+      <div className="content">
+        <NavBar />
+        <Router>
+          <Switch>
+            <Route path='/' exact component={Home}/>
+            <Route path='/projects' component={Projects}/>
+            <Route path='/about' component={About}/>
+            <Route path='/contact' component={Contact}/>
+            <Route path='/resume' component={Resume}/>
+            <Route path='/blog' render={redirectToBlog}/>
+          </Switch>
+        </Router>
       </div>
-    );
+
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
