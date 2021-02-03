@@ -23,7 +23,7 @@ function App(){
             <Route path='/about' component={About}/>
             <Route path='/contact' component={Contact}/>
             <Route path='/resume' component={Resume}/>
-            <Route path='/blog' component={Blog}/>
+            {/* <Route path='/blog' component={Blog}/> */}
           </Switch>
         </Router>
       </div>

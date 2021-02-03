@@ -19,11 +19,11 @@ export const MenuItems = [
         url: '/resume',
         cName: 'nav-links'
     },
-    {
-        title: 'Blog',
-        url: '/blog',
-        cName: 'nav-links',
-    },
+    // {
+    //     title: 'Blog',
+    //     url: '/blog',
+    //     cName: 'nav-links',
+    // },
     {
         title: 'Contact',
         url: '/contact',
