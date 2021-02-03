@@ -7,7 +7,7 @@ import Resume from './components/Resume/Resume'
 import Contact from './components/Contact/Contact'
 import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
-import Blog from './components/Blog/Blog'
+// import Blog from './components/Blog/Blog'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App(){
