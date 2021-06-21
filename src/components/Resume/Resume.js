@@ -1,5 +1,5 @@
 import { Document, Page, pdfjs } from 'react-pdf';
-import pdf from './Resume.pdf'
+import pdf from './Resume_V2.pdf'
 import './Resume.css'
 import Gist from 'react-gist'
 import React, { Component } from 'react';
